@@ -8,5 +8,7 @@ class BankAccount
     @statu = status
   end
 
+  def deposit
+  end
 
 end
