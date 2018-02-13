@@ -8,7 +8,8 @@ class BankAccount
     @statu = status
   end
 
-  def deposit
+  def deposit(amount)
+    balance += amount
   end
 
 end
